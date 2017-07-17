@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Andra's portfolio</title>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+<main>
+	<h2>About me</h2>
+
+	<img id="profileImage" src="assets/profile.jpg" alt="profile picture">
+
+	<p class="excerpt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue mauris, eget volutpat justo. Sed interdum, erat sit amet hendrerit vestibulum, diam risus mollis velit, non dignissim tortor purus vel mauris. Praesent maximus in mi quis mattis.<span class="fullText">Donec nec condimentum nulla, quis dictum lorem. Sed neque lectus, eleifend a interdum at, placerat ac ipsum. Suspendisse elementum tempus sodales. Vestibulum id ante lacinia, posuere risus vel, faucibus sem. Praesent metus elit, consequat faucibus risus id, lobortis porta risus. Aenean nec erat massa. Maecenas ornare in arcu eget congue. Donec a imperdiet dui. Nunc dignissim interdum metus, consequat sagittis est vestibulum non. Sed condimentum dolor sollicitudin urna pharetra, vitae viverra neque viverra. Integer eget tellus sed quam rhoncus hendrerit in id mi. Curabitur nec diam dictum ligula gravida vehicula efficitur ut urna. Maecenas maximus gravida lacinia.</span></p>
+	<p class="expander">Show <span class="expanderAction">More</span></p>
+
+	<h2>When I don't bake....</h2>
+	<section class="slideshow">
+		<article class="slides">
+			<img class="slide" src="assets/baking/baking1.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking2.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking3.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking4.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking5.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking6.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking7.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking8.jpg" alt="tasty image">
+			<img class="slide" src="assets/baking/baking9.jpg" alt="tasty image">
+		</article>
+		<button onclick="prevSlide(event)">Prev</button>
+		<button onclick="nextSlide(event)">Next</button>
+	</section>
+
+	<h2>I travel :)</h2>
+	<section class="slideshow">
+		<article class="slides">
+			<img class="slide" src="assets/travel/travel1.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel2.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel3.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel4.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel5.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel6.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel7.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel8.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel9.jpg" alt="pretty image">
+			<img class="slide" src="assets/travel/travel10.jpg" alt="pretty image">
+		</article>
+		<button onclick="prevSlide(event)">Prev</button>
+		<button onclick="nextSlide(event)">Next</button>
+	</section>
+</main>
+
+<!-- Welcome Alert -->
+<script src="js/welcome.js"></script>
+<!-- Image Enlarge -->
+<script type="text/javascript" src="js/enlargeImage.js"></script>
+<!-- Scroll Images -->
+<script type="text/javascript" src="js/slideshow.js"></script>
+<!-- Show/Hide More -->
+<script type="text/javascript" src="js/showMore.js"></script>
+</body>
+</html>
